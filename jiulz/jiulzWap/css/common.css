@@ -1,0 +1,149 @@
+@charset "utf-8";
+html{
+    min-width: 320px;
+    font-size: 16px;
+}
+@media only screen and (max-width:750px) {
+    html{
+        font-size: calc(10vw/4);
+    }
+}
+a {
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+* { padding:0;margin:0;
+    font-family: "microsoft yahei", Helvetica, Arial, sans-serif;
+    word-wrap: break-word;
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+}
+html ,body {
+    margin:0;
+    padding:0;
+    font-family: "microsoft yahei", Helvetica, Arial, sans-serif;
+    /*-webkit-overflow-scrolling: touch;*/
+}
+input, textarea, select {
+    font-family: "microsoft yahei", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    outline:none;
+    resize: none;
+    border: none;
+    -webkit-appearance:none;
+}
+h1,h2,h3,h4{
+    font-weight: normal;
+}
+b {
+    font-weight: normal;
+}
+ul,li {
+    list-style: none;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+i{
+    display: inline-block;
+}
+img{
+	border: none;
+}
+.bg_gray{
+    background: #EFEFEF;
+}
+.bg_fff{
+	background: #fff;
+}
+.container{
+    max-width:750px;
+    min-width:320px;
+    /*min-height:950px;*/
+    margin:auto;
+    /*position: relative;*/
+
+}
+
+
+/*@media only screen and (min-width:601px) {
+    html{
+        font-size:80%!important;
+    }
+}*/
+/*
+@media only screen and (max-width:600px) {
+   html{
+        font-size:80%;
+    }
+}
+@media only screen and (max-width:500px) {
+    html{
+        font-size:70%;
+    }
+}
+@media only screen and (max-width:400px) {
+    html{
+        font-size:60%;
+    }
+}
+@media only screen and (max-width:360px){
+    html{
+        font-size:50%;
+    }
+}
+@media only screen and (max-width:320px){
+    html{
+        font-size:40%;
+    }
+}
+*/
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+.footer{
+	padding: 1rem;
+	text-align: center;
+	background: #D7D7D7;
+	line-height: 2rem;
+	font-size: 1.5rem;
+	color: #727272;
+}
+
+
+.swiper-slide a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

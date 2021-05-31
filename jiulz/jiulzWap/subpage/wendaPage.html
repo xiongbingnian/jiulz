@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="renderer" content="webkit" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title>酒联展平台</title>
+		<link rel="stylesheet" href="../css/common.css">
+		<link rel="stylesheet" href="../css/subpage.css">
+	</head>
+
+	<body class="bg_gray">
+		<div class="container">
+			<!--头部-->
+			<div class="header">
+				<span onClick="javascript :history.back(-1);" class="return"></span>
+				<h3>问答</h3>
+				<div class="fold_box">
+					<div class="three_dot">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<div class="fold_p">
+						<i class="i_top_arrows_h"></i>
+						<ul class="fold_p_list">
+							<li>
+								<a href="../index.html">
+									<i class="i_home"></i>
+									<span>首页</span>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<i class="i_classify"></i>
+									<span>分类搜索</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="wenda_page_box">
+				<div class="issue_answer">
+					<h3><i class="i_issue"></i>你知道白酒是怎么酿造的吗?</h3>
+					<div class="answer_box">
+						<div class="expert"><i class="i_v"></i>本回答由白酒专家回答</div>
+						<p>
+							中国人善于饮酒，酒在中国，不只是一种烈性饮品，而是与历史紧密捆绑的文化，具有精神文化价值。饮酒不是为饮酒而饮酒，它也是在饮文化。而早在中国古代，先人们早已形成酒情怀，中国人善于饮酒，酒在中国，不只是一种烈性饮品，而是与历史紧密捆绑的文化，具有精神文化价值。饮酒不是为饮酒而饮酒，它也是在饮文化，然而先人们早已形成酒情怀。
+						</p>
+					</div>
+				</div>
+				<!--留言板-->
+				<section class="pro" id="message">
+					<h3><div>在线留言<i></i></div></h3>
+					<div class="message">
+						<div class="online">在线留言，我们将会与您联系！</div>
+						<form>
+							<p><label>姓名：</label><input type="text" id="txt1" name="xm" value="" placeholder="请输入您的姓名"></p>
+							<p><label>手机：</label><input type="text" id="txt2" name="tel" value="" placeholder="请输入您的电话或手机号"></p>
+							<p><label>留言：</label><input type="text" id="txt3" name="ly" value="" placeholder="填写您的留言信息"></p>
+							<input type="hidden" name="vcode" value="">
+							<input type="hidden" name="khid" value="">
+							<input id="fromurl" type="hidden" name="fromurl" value="">
+							<input id="blankurl" type="hidden" name="blankurl" value="">
+							<input type="submit" value="提交留言" id="btn">
+						</form>
+						<section>声明：本公司绝不对外泄露用户信息！</section>
+					</div>
+				</section>
+			</div>
+		</div>
+		<script src="../js/jquery-1.11.3.min.js"></script>
+		<script src="../js/common.js"></script>
+	</body>
+
+</html>
